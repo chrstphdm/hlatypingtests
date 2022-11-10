@@ -2,7 +2,7 @@
 
 ## IMGT/HLA
 
-Clone the (IMGTHLA)[https://github.com/ANHIG/IMGTHLA/] repository.
+Clone the [IMGTHLA](https://github.com/ANHIG/IMGTHLA/) repository.
 Following file and folder must exist :
 - release_version.txt
 - /alignments/
@@ -13,7 +13,7 @@ Following file and folder must exist :
 
 ## What does the script do?
 
-The script extracts exons sequences for each gene/allele file `*_nuc.txt` contained in `/alignments/`,except for file `ClassI_nuc.txt`.
+The script extracts exons sequences for each gene/allele file `*_nuc.txt` contained in `/alignments/`,except for file `ClassI_nuc.txt` and try to generate a database file to be used with [hlascan](https://github.com/SyntekabioTools/HLAscan)
 
 ## Results
 
